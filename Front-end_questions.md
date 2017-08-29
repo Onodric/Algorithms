@@ -1,5 +1,8 @@
 # Front End Interview Prep!
 
+## Taken from the blog of www.rashadrussell.com
+### A very helpful engineer! The answers, alas, are mine, however.
+
 Here are a few lists of some of the top questions and concepts you should be able to answer, explain, and code as a
 front-end engineer. I utilize the majority of these concepts everyday at work, and have been asked to answer and code
 these questions and concepts in front-end coding interviews. Typically, software engineering interviews will have on
@@ -43,10 +46,13 @@ fundamentals of CSS.
     - Styles _cascade_ to other elements in two ways: from parent to child, and from methods of styling.
     Children of a styled element will inherit styling from parents unless more specifically styled elsewhere.
 1. Explain the precedence order of external, header, and inline styles.
-    - The cascading nature of styles means that there is an order of precedence of style sources:
+    - The cascading nature of styles means that there is an order of 
+    precedence of style sources, from less specific to more specific:
         1. External - those included in a `<link>` tag, 
-        1. Header - those included in a `<style>` tag, overriding stlyes present in the external source, and
-        1. In-line - those present in the tag itself (for example, `<p style="color:red">`)
+        1. Header - those included in a `<style>` tag, overriding styles 
+        present in the external source, and
+        1. In-line - those present in the tag itself (for example, `<p 
+        style="color:red">`); these will override all the above styles.
 1. Explain the difference between the ID attribute and the Class attribute.
     - There can be only one of each `id` attribute, whereas a `class` can be applied to as many HTML elements as one wishes
 1. Know the precedence order of selectors and styles.
